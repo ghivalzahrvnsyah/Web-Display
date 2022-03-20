@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+header{
+
+}
+body{
+    background-image: url("Asset/bg3.png");
+}
+#nav-img{
+    width: 1450px;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 10px;
+
+    
+}
+nav li a{
+    text-decoration: none;
+    color: blue;
+}
+nav ul li a:hover{
+    color:#ff4321;
+}
+#profile, #shop{
+    float: right;
+    padding-right: 50px;
+}
+img{
+    width: 350px;
+    height: 350px;
+    margin-left: 15px;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
